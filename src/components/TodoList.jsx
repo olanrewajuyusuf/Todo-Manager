@@ -3,7 +3,7 @@ import Navbar from "./Navbar";
 import AllTasks from "./AllTasks"
 import CompletedTask from "./CompletedTasks"
 import ActiveTask from "./ActiveTasks";
-import { Route, Routes } from "react-router-dom";
+import { Navigate, Route, Routes } from "react-router-dom";
 import { useState } from "react";
 import EditForm from "./EditForm";
 import AddSubTaskForm from "./AddSubtaskForm";
@@ -145,6 +145,7 @@ const TodoList = ({data, setData, handleDrag}) => {
                         setData={setData} 
                    />
                 } />
+                <Route path="*" element={<Navigate to='/' />} />
             </Routes>
         </div>
     )
