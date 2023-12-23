@@ -1,5 +1,6 @@
 $body-bgcolor:  rgb(3, 0, 6);
-$main-bgcolor:  rgb(14, 12, 16);
+$main-bgcolor:  rgb(24, 19, 24);
+// $main-bgcolor:  rgb(28, 19, 34);
 $checkbox : rgb(255, 0, 179);
 $text:  #ccc;
 
@@ -129,7 +130,7 @@ body {
 
     .todo-lists {
       overflow-y: scroll;
-      height: 500px;
+      height: 480px;
     }
     .todo-lists::-webkit-scrollbar {
       width: 8px;
@@ -254,7 +255,7 @@ body {
       .Tuesday {
         color: #ff7f50;
       }
-      .Wednessday {
+      .Wednesday {
         color: #2a2afb;
       }
       .Thursday {
@@ -375,7 +376,7 @@ body {
       border-radius: 5px;
       overflow-y: scroll;
       position: relative;
-
+ 
       small {
         width: 100%;
         color: #c76565;

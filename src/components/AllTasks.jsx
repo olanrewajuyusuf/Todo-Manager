@@ -39,7 +39,8 @@ const AllTasks = ({data, handleShowSubtasks, handleTaskUpdate, arrowRotation, sh
               />)}
             </div>
 
-            <div className={task.set_date && getSpecificDay(task.set_date)} style={{fontSize: 12, marginTop: 5}}>
+            <div className={task.set_date && getSpecificDay(task.set_date)} style={{fontSize: 12, marginTop: 5, display: 'flex', alignItems: "center", gap: 5}}>
+              {(task.subtasks && task.subtasks.length > 0) && <span style={{color: '#ccc'}}>0/{task.subtasks.length}</span>}
               {task.set_date && <span style={{display: 'flex', alignItems: "center", gap: 5}}><GoCalendar /> {getSpecificDay(task.set_date)}</span>}
             </div>
 
