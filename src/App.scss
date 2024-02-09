@@ -113,11 +113,24 @@ body {
         font-size: 14px;
         color: $text;
         border-bottom: 3px solid $body-bgcolor;
+        
+        span {
+          opacity: 0;
+        }
       }
       
       .active {
-        color: #12b6b6;
-        border-color: #12b6b6;
+        color: $checkbox;
+        border-color: $checkbox;
+
+        span {
+          background-color: $checkbox;
+          padding: 0 5px;
+          color: $body-bgcolor;
+          border-radius: 50%;
+          font-weight: bold;
+          opacity: 1;
+        }
       }
     }
 
