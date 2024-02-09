@@ -1,4 +1,4 @@
-# React Todo List App
+# Todo Manager App
 
 This is a simple Todo List application built with React. It allows users to manage their tasks, mark them as completed, and add subtasks.
 
@@ -24,13 +24,13 @@ This is a simple Todo List application built with React. It allows users to mana
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/olanrewajuyusuf/React-Todo-List.git
+   git clone https://github.com/olanrewajuyusuf/Todo-Manager
    ```
 
 2. **Install dependencies:**
 
    ```bash
-   cd todo-list-app
+   cd todo-manager
    npm install
    ```
 
