@@ -459,6 +459,10 @@ body {
       width: 100%;
       height: 70vh;
 
+      nav {
+        padding-inline: 0;
+      }
+
       .todo-lists {
         height: 300px;
       }
