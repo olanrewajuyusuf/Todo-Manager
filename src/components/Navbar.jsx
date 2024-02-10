@@ -29,9 +29,9 @@ const Navbar = ({ data }) => {
         <NavLink to='/completed'>COMPLETED TASKS <span>{taskMarked.length + completeSubtaskLength}</span></NavLink>
     </nav>
     <nav className="mobile-nav">
-        <NavLink to='/'>ALL ({data.length + subtaskLength})</NavLink>
-        <NavLink to='/active'>ACTIVE ({taskUnmarked.length + activeSubtaskLength})</NavLink>
-        <NavLink to='/completed'>COMPLETED ({taskMarked.length + completeSubtaskLength})</NavLink>
+        <NavLink to='/'>ALL <span>{data.length + subtaskLength}</span></NavLink>
+        <NavLink to='/active'>ACTIVE <span>{taskUnmarked.length + activeSubtaskLength}</span></NavLink>
+        <NavLink to='/completed'>COMPLETED <span>{taskMarked.length + completeSubtaskLength}</span></NavLink>
     </nav>
     </>
   )
